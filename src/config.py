@@ -1,6 +1,7 @@
 from dataclasses import dataclass
+import os
 
 
 @dataclass
 class Config:
-    token: str = '6265650484:AAHVKLczT_fYfv8TBiNzqicR9jJll-rs_CY'
+    token: str = os.getenv('TELEGRAM_TOKEN')
