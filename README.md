@@ -8,7 +8,7 @@
 ```
 telegram_bot_for_job/
 ├── src                   # все файлы приложения
-│   ├── handlers/*        # команды для боты
+│   ├── handlers/*        # команды для бота
 │   │    ├── __init__.py
 │   │    └── start.py
 │   │
